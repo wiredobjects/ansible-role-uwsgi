@@ -22,7 +22,7 @@ install:
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 
   # Symlink role dir to offical role name
-  - cd .. && ln -s ansible-role-uwsgi wiredobjects.uwsgi
+  - ln -s ansible-role-uwsgi ../wiredobjects.uwsgi
 
 script:
   # Basic role syntax check
