@@ -16,5 +16,5 @@ galaxy_info:
   - wsgi
   - python
 
-dependencies: []
+dependencies:
   - wiredobjects.epel
