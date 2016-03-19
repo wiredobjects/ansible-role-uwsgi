@@ -1,6 +1,8 @@
 Ansible Role uwsgi
 ==================
 
+[![Build Status](https://api.travis-ci.org/wiredobjects/ansible-role-uwsgi.svg?branch=master)](https://api.travis-ci.org/wiredobjects/ansible-role-uwsgi)
+
 Managing the uwsgi service.
 uWSGI is a fast (pure C), self-healing, developer/sysadmin-friendly application container server for Python WSGI apps.
 
