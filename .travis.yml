@@ -25,7 +25,7 @@ install:
   - ln -s ansible-role-uwsgi ../wiredobjects.uwsgi
 
   # Fetch role dependencies
-  ansible-galaxy install wiredobjects.epel
+  - ansible-galaxy install wiredobjects.epel
 
 script:
   # Basic role syntax check
