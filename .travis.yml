@@ -24,6 +24,9 @@ install:
   # Symlink role dir to offical role name
   - ln -s ansible-role-uwsgi ../wiredobjects.uwsgi
 
+  # Fetch role dependencies
+  ansible-galaxy install wiredobjects.epel
+
 script:
   # Basic role syntax check
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
